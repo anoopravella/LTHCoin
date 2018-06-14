@@ -90,7 +90,7 @@ contract LTHCoin is StandardToken {
     Some wallets/interfaces might not even bother to look at this information.
     */
     string public name;                   // Token Name
-    uint8 public decimals;                // How many decimals to show. To be standard complicant keep it 18
+    uint8 public decimals;                // How many decimals to show.
     string public symbol;                 // An identifier: eg SBX, XPR etc..
     uint256 public unitsOneEthCanBuy;     // How many units of your coin can be bought by 1 ETH?
     address public fundsWallet;           // Collect all the ether we receive
